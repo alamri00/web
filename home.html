@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hotel Booking System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+
+body{
+    margin:0;
+    padding:30px;
+    font-family:'PT Serif',serif;
+    background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    text-align:center;
+}
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+    background:rgb(18, 20, 22);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.4);
+}
+
+h1{
+    color:#1f3b4d;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#555;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.rooms{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.room-card{
+    width:450px;
+}
+
+.room-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.room-card img:hover{
+    transform:scale(1.03);
+}
+
+.description{
+    margin-top:10px;
+    padding:12px;
+    background:#1f3b4d;
+    border-radius:10px;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+}
+
+button{
+    background:#1f3b4d;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+    margin-top:30px;
+}
+
+button:hover{
+    background:#2c5364;
+}
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    background:#1f3b4d;
+    color:white;
+    border-radius:15px;
+}
+
+footer h3{
+    margin-bottom:15px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+footer p{
+    margin-top:15px;
+    color:#f3eeee;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Welcome to the New York Hotel</h1>
+
+    <p class="subtitle">Enjoy our luxury rooms</p>
+
+    <div class="rooms">
+
+        <div class="room-card">
+            <img src="https://i.pinimg.com/1200x/51/8c/3e/518c3e340295c993419d33a7bea17c74.jpg"
+                 alt="Room 1">
+
+            <p class="description">
+                Luxury room with beautiful city views.
+            </p>
+        </div>
+
+        <div class="room-card">
+            <img src="https://i.pinimg.com/1200x/a9/2f/ea/a92feafdc99b280a66616424b5322344.jpg"
+                 alt="Room 2">
+
+            <p class="description">
+                Comfortable room with a modern and elegant design.
+            </p>
+        </div>
+
+    </div>
+
+    <a href="booking.html">
+        <button>Book Room</button>
+    </a>
+
+</div>
+
+<footer>
+
+    <h3>Contact Us</h3>
+
+    <a href="https://twitter.com" target="_blank">Twitter</a> |
+    <a href="https://instagram.com" target="_blank">Instagram</a> |
+    <a href="https://wa.me/966500000000" target="_blank">WhatsApp</a> |
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+
+    <p>© 2025 Hotel Booking System</p>
+
+</footer>
+
+</body>
+</html>

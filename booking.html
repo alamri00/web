@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Booking</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:30px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.container{
+    width:500px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.4);
+}
+
+h2{
+    text-align:center;
+    color:#1f3b4d;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#1f3b4d;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    box-sizing:border-box;
+    font-size:15px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#2c5364;
+}
+
+input[type="submit"]{
+    background:#1f3b4d;
+    color:white;
+    border:none;
+    margin-top:25px;
+    cursor:pointer;
+    font-size:18px;
+    transition:0.3s;
+}
+
+input[type="submit"]:hover{
+    background:#2c5364;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Book a Room</h2>
+
+    <form action="booking.php" method="POST">
+
+        <label>Booking ID</label>
+        <input type="text" name="BookingID" required>
+
+        <label>Guest ID</label>
+        <input type="number" name="Guest_ID" required>
+
+        <label>Room Number</label>
+        <input type="number" name="RoomNo" required>
+
+        <label>Booking Date</label>
+        <input type="date" name="BookingDate" required>
+
+        <label>Check In Time</label>
+        <input type="time" name="Check_In_Time" required>
+
+        <label>Check Out Time</label>
+        <input type="time" name="Check_Out_Time" required>
+
+        <input type="submit" value="Book Room">
+
+    </form>
+
+</div>
+
+</body>
+</html>
