@@ -1,0 +1,3 @@
+BookingID,Guest_ID,RoomNo,BookingDate,Check_In_Time,Check_Out_Time
+B003,3,103,2026-06-01,7:00,5:00
+B008,8,108,2026-06-02,9:00,8:00
