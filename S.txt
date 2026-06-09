@@ -1,0 +1,77 @@
+Template A – Requirements Specification
+
+Trainee name and date
+
+اكتب اسمك والتاريخ.
+
+Purpose (What is the purpose of the website?)
+
+Answer:
+
+The purpose of this website is to provide an online room booking system that allows tutors to view available rooms, check room information, and submit room booking requests quickly and efficiently.
+
+⸻
+
+Audience (Who will be using the website?)
+
+Answer:
+
+The website will be used by tutors, lecturers, and administrators who need to allocate and book rooms for classes and academic activities.
+
+⸻
+
+Functional Design
+
+Answer:
+
+The website supports the functional requirements by providing:
+
+	•	Room information display.
+	•	Weekly room timetable.
+	•	Room booking form.
+	•	Validation for booking details.
+	•	Room availability checking.
+	•	Social media links.
+	•	Easy navigation between pages.
+
+⸻
+
+Content Requirements
+
+Answer:
+
+The website contains:
+
+	•	Room details.
+	•	Room capacities.
+	•	Room locations.
+	•	Booking form.
+	•	Weekly timetable.
+	•	Contact information.
+	•	Validation messages.
+
+⸻
+
+Navigation Requirements
+
+Answer:
+
+Users can navigate through:
+
+	•	Home page.
+	•	Room Information page.
+	•	Weekly Timetable page.
+	•	Booking Form page.
+	•	Contact/Social Media links.
+
+⸻
+
+Design Requirements
+
+Answer:
+
+	•	Clean and simple layout.
+	•	Readable fonts.
+	•	Consistent colors.
+	•	Responsive design.
+	•	Easy-to-use navigation menu.
