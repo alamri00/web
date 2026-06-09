@@ -1,0 +1,61 @@
+
+
+Room
+
+	•	RoomNo (PK)
+	•	Capacity
+	•	Layout / Type
+	•	Location
+	•	Status
+
+Tutor
+
+	•	TutorID (PK)
+	•	TutorName
+	•	Email
+
+Booking
+
+	•	BookingID (PK)
+	•	BookingDate
+	•	StartTime
+	•	EndTime
+	•	TutorID (FK)
+	•	RoomNo (FK)
+
+⸻
+
+العلاقات
+
+	•	Tutor يحجز عدة غرف
+	•	Tutor (1) → (M) Booking
+	•	Room يمكن أن يكون له عدة حجوزات في أوقات مختلفة
+	•	Room (1) → (M) Booking
+
+⸻
+
+الفلو شارت للنظام
+
+Start
+↓
+Tutor Login
+↓
+View Available Rooms
+↓
+Select Room
+↓
+Check Availability
+↓
+
+إذا Available:
+
+	•	Create Booking
+	•	Save to Database
+	•	Booking Confirmed
+
+إذا Booked:
+
+	•	Display “Sorry, this room is booked.”
+
+↓
+End
